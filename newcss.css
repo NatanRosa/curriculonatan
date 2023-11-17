@@ -1,0 +1,81 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 19 de out de 2023, 13:54:25
+    Author     : Projeto BMF
+*/
+HTML{
+    SCROLL-BEHAvIOR :SMOOTH
+}
+
+div{
+    float:left;
+}
+.geral{
+    width:100%;
+}
+.lateral{
+    width:20%;
+    height:100%;
+    background-color:blue;
+    position: fixed;
+}
+.conteudo{
+    width:80%;
+    height:100%;
+    background-color:aquamarine;
+    margin-left: 20%;
+    padding: 1%;
+   
+}
+
+
+.foto{
+    height: 140px;
+    width:150px;
+    background-image: url('natan.png');
+    margin:15px;
+    border-radius:50%;
+    background-size: 100% 100%;
+
+}
+
+ol li{
+    list-style: none;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+ol li a:hover{
+    border-bottom: 2px solid white;
+}
+
+
+
+h1{
+text-align: center;
+}
+
+h2{
+text-align: center; 
+background-color: blue;
+color:white;
+}
+
+@media screen and (max-width:850px){
+    .lateral{
+        width:100%;
+        height:30%;
+        position: sticky;
+    }
+    .conteudo{
+        width:100%;
+        height:100%;
+        margin-left:0%;
+    }
+}
